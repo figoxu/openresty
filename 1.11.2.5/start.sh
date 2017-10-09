@@ -1,0 +1,1 @@
+sudo openresty -c /usr/local/Cellar/openresty/1.11.2.5/conf/nginx.conf
