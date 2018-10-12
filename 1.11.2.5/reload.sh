@@ -1,0 +1,1 @@
+sudo /usr/local/Cellar/openresty/1.11.2.5/nginx/sbin/nginx -s reload
