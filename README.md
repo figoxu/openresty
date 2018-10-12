@@ -27,3 +27,8 @@ brew install openresty/brew/openresty
 
 ## 基于OpenResty的网站开发框架
 * http://lor.sumory.com/
+
+## upstream使用balancer_by_lua来进行设置
+https://blog.csdn.net/zyt425916200/article/details/78113547
+https://openresty-reference.readthedocs.io/en/latest/Directives/#balancer_by_lua_file
+* openresty相关文档： https://openresty-reference.readthedocs.io/en/latest/Lua_Nginx_API/
