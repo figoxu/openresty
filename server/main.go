@@ -24,7 +24,7 @@ func h_domain_hello(c *gin.Context) {
 	param:=c.Request.URL.Query()
 	ph := env.ph
 	domain := ph.String("domain")
-	c.String(http.StatusOK, "Hello %s", domain," query data : ",Figo.JsonString(param))
+	c.String(http.StatusOK, "Hello %s %s %s", domain," query data : ",Figo.JsonString(param))
 }
 
 func m_gh(c *gin.Context) {
