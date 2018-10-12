@@ -4,6 +4,7 @@ import (
 	"github.com/figoxu/gh"
 	"github.com/gin-gonic/gin"
 	"net/http"
+	"github.com/figoxu/Figo"
 )
 
 type Env struct {
@@ -20,9 +21,10 @@ func main() {
 //http://localhost:3456/figo/hello
 func h_domain_hello(c *gin.Context) {
 	env := c.MustGet("env").(*Env)
+	param:=c.Request.URL.Query()
 	ph := env.ph
 	domain := ph.String("domain")
-	c.String(http.StatusOK, "Hello %s", domain)
+	c.String(http.StatusOK, "Hello %s", domain," query data : ",Figo.JsonString(param))
 }
 
 func m_gh(c *gin.Context) {

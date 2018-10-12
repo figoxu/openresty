@@ -15,3 +15,12 @@ brew install openresty/brew/openresty
 ## 二级域名范例
 * 在hosts里配置  figo.figohome.me   henry.figohome.me 指向 127.0.0.1 用于测试
 * 通过 http://henry.figohome.me/  , http://figo.figohome.me/ 访问测试网页
+
+
+## 二级域名Lua范例
+* 在hosts里配置
+```
+127.0.0.1  figo.figohome.cn
+127.0.0.1  henry.figohome.cn
+```
+* 通过 http://henry.figohome.cn/  , http://figo.figohome.cn/ 访问测试网页
