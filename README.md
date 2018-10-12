@@ -24,3 +24,6 @@ brew install openresty/brew/openresty
 127.0.0.1  henry.figohome.cn
 ```
 * 通过 http://henry.figohome.cn/  , http://figo.figohome.cn/ 访问测试网页
+
+## 基于OpenResty的网站开发框架
+* http://lor.sumory.com/
