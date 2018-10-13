@@ -1,1 +1,1 @@
-go build && ./server
+go build && ./server -domain www.figoxu.me -port :7890
