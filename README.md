@@ -32,3 +32,8 @@ brew install openresty/brew/openresty
 https://blog.csdn.net/zyt425916200/article/details/78113547
 https://openresty-reference.readthedocs.io/en/latest/Directives/#balancer_by_lua_file
 * openresty相关文档： https://openresty-reference.readthedocs.io/en/latest/Lua_Nginx_API/
+
+## OpenResty动态上下架
+https://leokongwq.github.io/2018/01/31/openresty-health-check-dynamic-up-down.html
+* 健康检查 http://blog.51cto.com/quietmadman/1725302
+* conf.d/figoautoupstreams.conf

@@ -1,1 +1,1 @@
-go build && ./server -domain www.figoxu.me -port :7890
+go build && ./server -domain www.figoxu.me -port :3456
