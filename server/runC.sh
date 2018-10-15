@@ -1,0 +1,1 @@
+go build && ./server -domain serverC.me -port :3458
